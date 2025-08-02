@@ -1,0 +1,19 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "typescript.tsserver.web.projectWideIntellisense.enabled": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "javascript.preferences.importModuleSpecifier": "shortest",
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "jestrunner.jestCommand": "pnpm test:watch",
+  "jestrunner.runOptions": [],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
